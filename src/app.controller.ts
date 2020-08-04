@@ -2,7 +2,7 @@ import { Controller, Get, Query } from '@nestjs/common';
 import { AppService } from './app.service';
 
 const exec = require('child_process').exec;
-var fs = require('fs');
+const fs = require('fs');
 
 @Controller()
 export class AppController {
